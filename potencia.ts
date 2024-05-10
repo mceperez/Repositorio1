@@ -2,7 +2,7 @@ import * as rls from 'readline-sync';
 
 let base:number=rls.questionInt("ingrese un numero: ");
 let exponente:number=rls.questionInt("ingrese el exponente: ");
-let resultado:number=0
+
 
 function potencia (base:number,exponente:number): number{
    let resultado:number= base**exponente
@@ -10,6 +10,10 @@ function potencia (base:number,exponente:number): number{
 
 
 }
-resultado=potencia(base,exponente)
-potencia(base,exponente)
-console.log("el resultado es: "+ resultado )
+
+
+console.log("el resultado es: "+  potencia(base,exponente))
+
+
+
+
