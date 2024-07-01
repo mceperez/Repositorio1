@@ -1,0 +1,88 @@
+
+.bloque1 {
+    background: green;
+    display: inline-block;
+    margin: 10px;
+    padding: 50px;
+    width: 40px; 
+    height: 5px;    
+}
+
+.bloque2{
+    background: grey;
+    display: inline-block;
+    height: 105px;
+    width: 362px;
+    margin-top: 10px; 
+    
+
+    
+}
+
+.bloque3{
+    background: rgb(235, 199, 156);
+    border: 4px solid ;
+    margin: 10px;
+    padding: 10px;
+    width: 100%; 
+    height: 10px; 
+}
+
+.bloque4{
+    background-color: rgb(75, 11, 66);
+    height: 300px;
+    width: 100px;
+}
+
+.bloque5{
+    width: 150px;
+    background-color: blue;
+    height: 150px;
+    
+    margin: 10px;
+    
+    
+    
+    
+}
+
+.bloque6{
+    width: 150px;
+    height: 150px;
+    background: rgb(243, 4, 203);
+    display:flex;
+    
+    margin: 10px;
+    
+}
+
+.bloque7{
+    background-color:orangered;
+    align-self: flex-end;
+    
+    padding: 10px;
+    width: 500px; 
+    height: 100px; 
+    
+}
+
+.contenedor {
+    display: flex; 
+    flex-wrap: wrap;
+}
+.contenedor1 {
+    display: flex; 
+    align-items: flex-start;
+    justify-content:flex-start;
+    height: 300px;
+     
+}
+.pie {
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+
+}
+
+
