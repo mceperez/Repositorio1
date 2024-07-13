@@ -1,0 +1,30 @@
+
+body{
+    display: flex;
+    height: 100px;
+    width: 800px;
+    justify-content: space-around;
+    border: solid rgb(100, 237, 180);
+    margin: 10px;
+}
+.botonIzq{
+    width: 100px;
+    background-color: blueviolet;
+    visibility: hidden;
+    
+    
+}
+.botonDer{
+    width: 100px;
+    background-color: blueviolet;
+    visibility: visible;
+
+}
+#btnI{
+    width: 100%;
+
+}
+
+#btnD{
+    width: 100%;
+}
